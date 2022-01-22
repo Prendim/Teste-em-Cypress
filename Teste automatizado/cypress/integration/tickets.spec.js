@@ -1,7 +1,7 @@
 describe("Tickets", () => {
     beforeEach(() => cy.visit("https://ticket-box.s3.eu-central-1.amazonaws.com/index.html"));
 
-    it("fills and reset the form", () =>{
+    it("Preenche e reseta o formulário", () =>{
         const firstName = "Mateus Henrique";
         const lastName = "Prendim Costa";
         const fullName = `${firstName} ${lastName}`;
